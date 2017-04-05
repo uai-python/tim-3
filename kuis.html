@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+  <div class="page-header">
+  {% for soal in soal %}
+    <h1>Soal : {{ soal }}</h1>
+  </div>
+  <p>Jawab : </p>      
+  <p></p>  
+  {% endfor %}    
+</div>
+
+{% endblock %}
